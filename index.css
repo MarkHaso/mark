@@ -1,0 +1,105 @@
+:root{
+	--background: #c3c0ba;
+	--white: rgb(222, 219, 199);
+	--one: #0c4ef7;
+	--two: #1199b8;
+	--black: #83878d;
+}
+*{margin:0px; padding:0px; box-sizing: border-box; font-family: system-ui;}
+body{background: var(--background);}
+
+.col-div-7{width: 75%; float: left;}
+
+.div4{width: 35%; float: left;}
+
+.div8{width: 65%; float: left;}
+
+.div6{width: 50%; float: left;}
+
+.clearalltsomfinns{clear: both;}
+
+.heymark{width: 700px; height: 800px; 
+	background: linear-gradient(var(--one), var(--two));
+	margin: 50px auto;
+	box-shadow:5px 5px 5px 5px #83878d;
+}
+.vänstra-box{width: 35%; float: left; height: 700px;}
+
+.högra-box{width: 65%; float: left; background-color: var(--white); height: 700px;
+	margin: 50px 0px; border-radius: 50px 0px 0px 50px; padding:30px 50px;
+	box-shadow: -7px 2px 15px 2px #54585d52;}
+
+.profile{width: 150px; height: 150px; border: 3px solid var(--white); 
+padding: 7px; border-radius: 50%; margin: 20px auto;}
+
+.profile img{width: 100%; border-radius: 50%;}
+
+.content-box{padding: 0px 40px 0px 45px;}
+
+.content-box h2{text-transform: uppercase;font-weight: 500;color: var(--white); 
+	letter-spacing: 1px; font-size: 20px;}
+
+.hr1{border: none; height: 1px; background: var(--white); margin-top: 3px;}
+
+.p1{font-size: 11px;color: var(--white);letter-spacing: 1px;padding-top: 12px; font-style: italic;}
+
+#mark {border-radius: 13px;height: 8px;width: 100%;}
+
+#mark:after {
+    content: '';
+    display: block;
+    background-color: lightgreen;
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+}
+#mohammed {border-radius: 13px;height: 8px;width: 100%;}
+
+#mohammed:after {
+    content: '';
+    display: block;
+    background-color:lightgreen;
+    width: 95%;
+    height: 100%;
+    border-radius: 9px;
+}
+#ramseen {border-radius: 13px;height: 7px;width: 100%;}
+#ramseen:after {
+    content: '';
+    display: block;
+    background-color:lightgreen;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+#michael {border-radius: 13px;height: 7px;width: 100%;}
+#michael:after {
+    content: '';
+    display: block;
+    background-color:orange;
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.content-box h3{font-size: 13px;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;
+    color: white;font-weight: 500;
+}
+.p2{font-size: 13px; margin-bottom: 5px; margin-top: 5px; color: var(--white);}
+
+.in{background:var(--white);color: var(--one);padding: 8px;border-radius: 20px; font-size: 14px;}
+
+h1{font-size: 50px; text-transform: uppercase; color: var(--black); line-height: 50px;}
+
+h1 span{color: var(--one);}
+
+.p3{letter-spacing: 4px;color: #54585d; font-weight: 500;}
+
+.zazaplaza{text-transform: uppercase;font-weight: 500;color: var(--one); 
+	letter-spacing: 1px; font-size: 20px;}
+.hr2{border: none; height: 1px; background: var(--black); margin-top: 3px;}
+
+.p5{font-weight: 700;color: var(--black);}
+
+.span1{font-size: 10px;color: var(--black);}
+
